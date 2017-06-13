@@ -65,6 +65,61 @@ body {
   }
 }
 
+* {
+  transition: all .2s cubic-bezier(.35,1.23,.18,1.13);
+}
+
+#background {
+  width: 90%;
+  height: 0;
+  padding-bottom: 90%;
+  margin: auto;
+  margin-top: 5%;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/972239/southerBGD%402x-100.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#container{
+  position: relative;
+  margin: auto;
+  width: 70%;
+  margin-top: -33%;
+  padding-bottom: 50%;
+  height: 0;
+}
+
+a {
+  display: block;
+  text-align: center;
+}
+
+#flints {
+  width: 100%;
+}
+#souther {
+  width: 60%;
+  margin-top: -17%;
+  margin-left: -5%;
+  z-index: 10;
+}
+#house {
+  width: 70%;
+  margin-top: -8%;
+  margin-left: -2%;
+  z-index: 20;
+}
+#carmel {
+  width: 80%;
+  margin-top: -10%;
+  margin-left: 1%;
+  z-index: 30;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
 
 
 /* FONTS
